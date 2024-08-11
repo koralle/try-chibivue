@@ -19,6 +19,7 @@
     "yarn": "please use pnpm!"
   },
   "dependencies": {
+    "@tsconfig/strictest": "^2.0.5",
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4",
