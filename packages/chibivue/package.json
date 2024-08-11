@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "@koralle/chibivue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

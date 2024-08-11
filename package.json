@@ -1,0 +1,24 @@
+{
+  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf",
+  "name": "try-chibivue",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Chibivueをやった記録をVitePressで残す",
+  "scripts": {},
+  "keywords": [
+    "chibivue",
+    "vue"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "pnpm": ">=9.x",
+    "node": ">=20.x",
+    "npm": "please use pnpm!",
+    "yarn": "please use pnpm!"
+  },
+  "dependencies": {
+    "vite": "^5.4.0"
+  }
+}
