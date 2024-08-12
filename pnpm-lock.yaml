@@ -24,7 +24,11 @@ importers:
         specifier: ^5.4.0
         version: 5.4.0
 
-  packages/chibivue: {}
+  packages/chibivue:
+    dependencies:
+      '@koralle/runtime-dom':
+        specifier: workspace:*
+        version: link:../runtime-dom
 
   packages/chibivue-playground:
     dependencies:
@@ -33,6 +37,8 @@ importers:
         version: link:../chibivue
 
   packages/runtime-core: {}
+
+  packages/runtime-dom: {}
 
 packages:
 
