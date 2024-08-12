@@ -38,7 +38,11 @@ importers:
 
   packages/runtime-core: {}
 
-  packages/runtime-dom: {}
+  packages/runtime-dom:
+    dependencies:
+      '@koralle/runtime-core':
+        specifier: workspace:*
+        version: link:../runtime-core
 
 packages:
 
