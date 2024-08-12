@@ -32,6 +32,8 @@ importers:
         specifier: workspace:*
         version: link:../chibivue
 
+  packages/runtime-core: {}
+
 packages:
 
   '@esbuild/aix-ppc64@0.21.5':
